@@ -2,13 +2,15 @@
 // No media query for `xs` since this is the default in Bootstrap */
 
 html {
-    height: 100%;
+    min-height: 100%;
 }
 
-body {
+.main-wrapper {
     background-image: linear-gradient(#C97E90, #EBC3D0);
-    /* background-repeat: no-repeat; */
+    background-size: cover;
+    min-height: 100%;
     text-align: center;
+    overflow: 
 }
 
 .mynavigation {
@@ -46,6 +48,10 @@ nav {
     display: none;
 }
 
+.nav-btn, .nav-btn-hidden {
+    font-family: 'Open Sans', sans-serif; 
+}
+
 .hide-desktop-only {
     display: flex;
 }
@@ -66,7 +72,7 @@ nav {
 }
 
 .nav-btn-hidden>a {
-    color: rgb(72, 72, 72);
+    color: rgba(72, 72, 72, 0.694);
     padding: 10px 15px;
     text-decoration: none;
 }
@@ -104,11 +110,7 @@ p {
 .acknowledgement {
     color: rgba(72, 72, 72, 0.201);
     margin-top: 20px;
-}
-
-.acknowledgement {
     font-size: 0.7rem;
-    margin-bottom: -10px;
     text-decoration: none;
 }
 
@@ -146,7 +148,7 @@ p {
    }
 
    .nav-btn>a {
-       color: rgb(72, 72, 72);
+       color: rgba(72, 72, 72, 0.694);
        text-decoration: none;
    }
 
