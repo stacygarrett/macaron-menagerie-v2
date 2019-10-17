@@ -7,10 +7,9 @@ html {
 
 .main-wrapper {
     background-image: linear-gradient(#C97E90, #EBC3D0);
-    background-size: cover;
+    /* background-size: cover; */
     min-height: 100%;
     text-align: center;
-    overflow: 
 }
 
 .mynavigation {
