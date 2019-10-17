@@ -1,0 +1,183 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#C97E90, #EBC3D0);
+    /* background-repeat: no-repeat; */
+    text-align: center;
+}
+
+.mynavigation {
+   display: flex;
+   justify-content: center;
+}
+
+
+.macaron-logo {
+    width: 50px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-menu {
+    background-color: #EBC3D0;
+    text-align: left;
+}
+
+header {
+    font-size: 1rem;
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+nav {
+    text-align: left;;
+    display: none;
+}
+
+.hide-desktop-only {
+    display: flex;
+}
+
+.mob-wrapper {
+    display: block;
+    padding-right: 30px;
+
+}
+
+.mob-nav {
+    display: none;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    position: absolute;
+    left: 49%;
+    text-align: left;
+}
+
+.nav-btn-hidden>a {
+    color: rgb(72, 72, 72);
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+
+.title {
+    color: rgb(242, 227, 200);
+    font-family: 'Lily Script One', cursive;
+    font-size: 3.5rem;
+    padding: 3% 5%;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0, 0.2);
+}
+
+
+p {
+    color: rgb(72, 72, 72);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    margin-bottom: 10%;
+}
+
+.mybox {
+    background-color: rgba(249, 217, 227, 0.31);
+    border-radius: 5px 100px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.119);
+    margin: 0 auto;
+    width: 75%;
+}
+
+.hero-paragraph {
+    width: 75%;
+    padding: 15% 10%;
+}
+
+.acknowledgement {
+    color: rgba(72, 72, 72, 0.201);
+    margin-top: 20px;
+}
+
+.acknowledgement {
+    font-size: 0.7rem;
+    margin-bottom: -10px;
+    text-decoration: none;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+    p {
+        line-height: 1.75;
+        margin-bottom: 5%;
+    }   
+
+    .hero-paragraph {
+        padding: 8% 10%;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   nav {
+       display: inline-block;
+   }
+
+   .mob-wrapper {
+       display: none;
+   }
+
+   .nav-btn {
+       display: inline-block;
+       padding: 20px 25px;
+       list-style: none;
+   }
+
+   .nav-btn>a {
+       color: rgb(72, 72, 72);
+       text-decoration: none;
+   }
+
+   .nav-btn:hover {
+       background-color: rgba(201, 126, 143, 0.79);
+       color: rgb(242, 227, 200);
+   }
+
+   .nav-btn a:hover {
+    color: rgb(242, 227, 200);
+}
+
+   p {
+       line-height: 1.75;
+       margin-bottom: 4%;
+   }
+
+   .hero-paragraph {
+       padding: 6% 8%;
+   }
+} 
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    p {
+        line-height: 1.5;
+        margin-bottom: 3%;
+    }   
+    
+    .hero-paragraph {
+        padding: 5% 8%;
+    } 
+
+}
