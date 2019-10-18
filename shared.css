@@ -1,0 +1,133 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+html {
+    min-height: 100%;
+}
+
+.macaron-logo {
+    width: 50px;
+}
+
+.title {
+    color: rgb(242, 227, 200);
+    font-family: 'Lily Script One', cursive;
+    font-size: 3.5rem;
+    padding: 3% 5%;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+
+header {
+    font-size: 1rem;
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.mynavigation {
+    display: flex;
+    justify-content: center;
+ }
+
+.dropdown-menu {
+    background-color: #EBC3D0;
+    text-align: left;
+}
+
+nav {
+    text-align: left;;
+    display: none;
+}
+
+.nav-btn, .nav-btn-hidden {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.hide-desktop-only {
+    display: flex;
+}
+
+.mob-wrapper {
+    display: block;
+    padding-right: 30px;
+}
+
+.mob-nav {
+    display: none;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    position: absolute;
+    left: 49%;
+    text-align: left;
+}
+
+.nav-btn-hidden>a {
+    color: rgba(72, 72, 72, 0.694);
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+/* Social Icons */
+.social-icon {
+    border: 2.5px solid #f1e4c9;
+    border-radius: 100%;
+    color: #f1e4c9;
+    font-size: 1.5rem;
+    margin: 40px 10px 5px;
+    padding: 10px;
+}
+
+.icon-box {
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Icon Acknowledgement */
+
+.acknowledgement {
+    color: rgba(72, 72, 72, 0.201);
+    margin-top: 20px;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    nav {
+        display: inline-block;
+    }
+ 
+    .mob-wrapper {
+        display: none;
+    }
+ 
+    .nav-btn {
+        display: inline-block;
+        padding: 20px 25px;
+        list-style: none;
+    }
+ 
+    .nav-btn>a {
+        color: rgba(72, 72, 72, 0.694);
+        text-decoration: none;
+    }
+ 
+    .nav-btn a:hover {
+     color: rgb(242, 227, 200);
+    }  
+ 
+ } 
+
+ /* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   
+
+}
