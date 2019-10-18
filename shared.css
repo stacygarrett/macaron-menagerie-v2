@@ -82,6 +82,11 @@ nav {
     padding: 10px;
 }
 
+.social-icon:hover {
+    border-color: rgba(177, 102, 126, 0.619);
+    color: rgba(177, 102, 126, 0.619);
+}
+
 .icon-box {
     height: 5%;
     display: flex;
@@ -92,6 +97,12 @@ nav {
 /* Icon Acknowledgement */
 
 .acknowledgement {
+    color: rgba(72, 72, 72, 0.201);
+    margin-top: 20px;
+    font-size: 0.7rem;
+}
+
+.acknowledgement>a {
     color: rgba(72, 72, 72, 0.201);
     margin-top: 20px;
     font-size: 0.7rem;
