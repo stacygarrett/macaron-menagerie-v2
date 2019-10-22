@@ -1,0 +1,220 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+.main-wrapper {
+    background-image: linear-gradient(to right bottom, rgb(142, 117, 164) , rgb(213, 185, 238));
+    min-height: 100%;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: rgb(72, 72, 72);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.95rem;
+    line-height: 2;
+    margin-bottom: 10%;
+}
+
+h3 {
+    color: #f1e4c9;
+    font-size: 1.35rem;
+}
+
+.mybox {
+    background-color: rgba(241, 225, 245, 0.42);
+    border-radius: 5px 100px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.119);
+    margin: 0 auto;
+    width: 75%;
+}
+
+.hero-paragraph {
+    width: 75%;
+    padding: 15% 10% 7%;
+}
+
+.address {
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+    margin: 3% auto;
+}
+
+.address:hover {
+    color: rgb(142, 117, 164);
+    text-decoration: none;
+}
+
+.come-visit {
+    padding: 2%;
+}
+
+.order-btn {
+    background-color: rgba(255, 251, 243, 0.322);
+    border-radius: 0 20px;
+    border: 1px solid rgba(99, 99, 99, 0.468);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.119);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 auto 8% auto;
+}
+
+.order-btn a {
+    color: rgba(72, 72, 72, 0.584);
+}
+
+.order-btn:hover {
+    background-color: rgba(180, 120, 232, 0.714);
+    border-color: rgb(180, 120, 232, 0.714);
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+.form-box {
+    display: inline-block;
+    justify-content: flex-start;
+    align-content: center;
+    width: 75%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 3% 10%;
+}
+
+.form-text {
+    margin: 4%;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.461);
+    border-color: rgba(72, 72, 72, 0.315);
+    margin-bottom: 8%;
+}
+
+.form-row{
+    margin: 0 3%;
+    width: 100%;
+}
+
+.label-text {
+    color: rgba(60, 59, 67, 0.769);
+    margin: 2%;
+    text-align: left;
+}
+
+.spacer {
+    height: 20px;
+}
+
+.hero-image-row {
+    padding-top: 8%;
+    }
+
+.message-box-md {
+    margin-bottom: 0;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .mybox {
+        width: 70vw;
+    }
+    
+    p {
+        line-height: 1.75;
+        margin-bottom: 5%;
+    }   
+
+    .hero-paragraph {
+        padding: 8% 10% 6%;
+}
+
+.label-text {
+    margin: 2% 1%;
+}
+
+.spacer2 {
+    display: none;
+}
+
+.form-box {
+    display: inline-block;
+    text-align: center;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .mybox {
+        width: 50vw;
+    }
+
+   p {
+       line-height: 1.75;
+       margin-bottom: 4%;
+   }
+
+   .hero-paragraph {
+       padding: 6% 8%;
+   }
+
+   .nav-btn:hover {
+        color: rgb(242, 227, 200);
+    }
+
+    .address {
+        color: rgb(72, 72, 72);
+        text-decoration: none;
+        margin: 2% auto;
+    }
+    
+    .address:hover {
+        color: rgb(142, 117, 164);
+        text-decoration: none;
+    }
+    
+    .come-visit {
+        padding: 1%;
+    }
+
+    .message-box {
+        position: relative;
+        left: 10%;
+    }
+
+    .text {
+        margin-bottom: 2%;
+    }
+
+    .hero-image-row {
+    padding-top: 5%;
+    }
+
+  
+} 
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    p {
+        line-height: 1.5;
+        margin-bottom: 3%;
+    }   
+    
+    .hero-paragraph {
+        padding: 5% 8%;
+    }
+
+    .message-box {
+        position: relative;
+        left: 9%;
+    }
+}

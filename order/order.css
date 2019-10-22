@@ -1,0 +1,108 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+.main-wrapper {
+    background-image: linear-gradient(rgb(97, 191, 193) , #B4E0E1);
+    min-height: 100%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image-cookiebox {
+    -webkit-filter: drop-shadow(5px 5px 10px rgba(60, 60, 60, 0.295));
+    filter:         drop-shadow(5px 5px 10px rgba(34, 34, 34, 0.29));
+    display: flex;
+    margin: 2% 0 2% 15%;
+    width: 15vw;
+}
+
+.left-image {
+    display: none;
+}
+
+.order-btn {
+    background-color: rgba(255, 251, 243, 0.322);
+    border-radius: 0 20px;
+    border: 1px solid rgba(99, 99, 99, 0.468);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.119);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 auto 8% auto;
+}
+
+.order-btn a {
+    color: rgba(72, 72, 72, 0.584);
+}
+
+.order-btn:hover {
+    background-color: rgba(255, 192, 203, 0.603);
+    text-decoration: none;
+    transition: 2s;
+}
+
+.hero-image-cookiebox {
+    margin-right: -5%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 3% 10%;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.557);
+    border-color: rgba(72, 72, 72, 0.315);
+    margin-bottom: 8%;
+}
+
+.flavor-choice {
+    margin-bottom: 3%;
+}
+
+.form-row{
+    margin: 0 3%;
+    width: 100%;
+}
+
+.spacer {
+    height: 4vh;
+}
+
+.label-text {
+    color: rgba(60, 59, 67, 0.769);
+    margin-bottom: 2%;
+    margin-left: 2%;
+    text-align: left;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .left-image {
+        display: block;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  
+} 
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+}

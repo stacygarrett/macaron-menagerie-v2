@@ -48,6 +48,8 @@
 
 .my-card-img {
    padding: 5%;
+   -webkit-filter: drop-shadow(2px 4px 8px rgba(41, 22, 12, 0.29));
+   filter:         drop-shadow(2px 4px 8px rgba(41, 22, 12, 0.29));
 }
 
 .description {
@@ -76,6 +78,11 @@ li {
     font-size: 1.5rem;
     margin: 0 10px 5px;
     padding: 10px;
+}
+
+.social-icon2:hover {
+    border-color: rgba(147, 81, 31, 0.584);
+    color: rgba(147, 81, 31, 0.584);
 }
 
 /* // Small devices (landscape phones, 576px and up) */

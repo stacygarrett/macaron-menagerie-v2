@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Macaron Order Form</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="../css-reset.css">
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="order.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lily+Script+One|Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/56c3a39e38.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="main-wrapper">
+
+
+    <!-- Nav -->
+    <div class="header-container">
+            <header>
+                    <a class="navbar-brand" href="../index.html">
+                    <img class="macaron-logo" src="../images/two-macarons-cream.svg" alt="Macaron Menagerie Logo"></a>
+                    <nav>
+                        <ul>
+                            <li class="nav-btn"><a href="../menu/index.html">
+                                MENU</a>
+                            </li>
+                            <li class="nav-btn"><a href="index.html">
+                                ORDER</a>
+                            </li>
+                            <li class="nav-btn"><a href="../about/index.html">
+                                ABOUT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="mob-wrapper">
+                            <img src="../images/icon-burger-menu.svg" alt="Mobile Menu Icon" style="width: 20px;" class="burger-menu">
+                            <div class="mob-nav">
+                                <ul>
+                                        <li class="nav-btn-hidden"><a href="../menu/index.html">
+                                            MENU</a>
+                                        </li>
+                                        <li class="nav-btn-hidden"><a href="index.html">
+                                            ORDER</a>
+                                        </li>
+                                        <li class="nav-btn-hidden"><a href="../about/index.html">
+                                            ABOUT</a>
+                                        </li>
+                                    </ul>
+                            </div>
+                    </div>
+                </header>
+                </div>
+
+<!-- Header -->
+
+        <h1 class="title">Get Yours Today!</h1>
+        <!-- <button class="order-btn"><a href="#">ORDER NOW</a></button> -->
+
+  <!-- Content -->
+  <div class="form-container">
+      <section class="row">
+          <div class="left-image col-md-4 col-lg-3">
+                 <!-- Image -->
+                     <div class="hero-img"><img class="hero-image-cookiebox img-fluid" src="../images/macaron-box@0,5x.png" alt="row of beautiful macarons"
+                      srcset="../images/macaron-box@0,5x.png 600w, ../images/macaron-box.png 1200w, ../images/macaron-box@2x.png 2000w">
+             </div>
+          </div>
+       
+            <div class="container-fluid  col-12 col-md-8">
+                <form class="row">
+        
+                    <!-- First Bootstrap Form -->
+                        <div class="form-row">
+                            <div class="col-12">
+                                    <small class="form-text text-muted mb-4">Sign in or Create Your Account</small>
+                            </div>
+                        </div>
+                                  <div class="form-row">
+                                        <label class="label-text col-12" for="First Name">Name:</label>
+                                    <div class="col-12 col-md-6">
+                                      <input type="text" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                      <input type="text" class="form-control" placeholder="Last name">
+                                    </div>
+                                  </div>
+                                  <div class="form-row">
+                                        <label class="label-text col-12" for="Address">Address:</label>
+                                        <div class="col-12 col-md-6">
+                                                <!-- <label for="inputAddress"></label> -->
+                                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                        </div>
+                                        <div class="col-12 col-md-6 ">
+                                                <!-- <label for="inputAddress2"></label> -->
+                                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, suite, etc.">
+                                        </div>
+                                      </div>
+                              
+                              <div class="form-row">
+                                <div class="col-md-6">
+                                  <input type="text" class="form-control" placeholder="City" id="inputCity">
+                                </div>
+                                <div class="col-6 col-md-4">
+                                  <select id="inputState" class="form-control" placeholder="State">
+                                    <option selected>Select State...</option>
+                                    <option value="ALABAMA">Alabama</option>
+                                    <option value="ALASKA">Alaska</option>
+                                    <option value="ARIZONA">Arizona</option>
+                                    <option value="ARKANSAS">Arkansas</option>
+                                    <option value="CALIFORNIA">California</option>
+                                    <option value="COLORADO">Colorado</option>
+                                    <option value="CONNETICUIT">Conneticuit</option>
+                                    <option value="DELAWARE">Delaware</option>
+                                    <option value="FLORIDA">Florida</option>
+                                    <option value="GEORGIA">Georgia</option>
+                                    <option value="HAWAII">Hawaii</option>
+                                    <option value="IDAHO">Idaho</option>
+                                    <option value="ILLINOIS">Illinois</option>
+                                    <option value="INDIANA">Indiana</option>
+                                    <option value="IOWA">Iowa</option>
+                                    <option value="KANSAS">Kansas</option>
+                                    <option value="KENTUCKY">Kentucky</option>
+                                    <option value="LOUISIANA">Louisiana</option>
+                                    <option value="MAINE">Maine</option>
+                                    <option value="MARYLAND">Maryland</option>
+                                    <option value="MASSACHUSETTS">Massachusetts</option>
+                                    <option value="MICHIGAN">Michigan</option>
+                                    <option value="MINNESOTA">Minnesota</option>
+                                    <option value="MISSISSIPPI">Mississippi</option>
+                                    <option value="MISSOURI">Missouri</option>
+                                    <option value="MONTANA">Montana</option>
+                                    <option value="NEBRASKA">Nebraska</option>
+                                    <option value="NEVADA">Nevada</option>
+                                    <option value="NEW HAMPSHIRE">New Hampshire</option>
+                                    <option value="NEW JERSEY">New Jersey</option>
+                                    <option value="NEW MEXICO">New Mexico</option>
+                                    <option value="NEW YORK">New York</option>
+                                    <option value="NORTH CAROLINA">North Carolina</option>
+                                    <option value="NORTH DAKOTA">North Dakota</option>
+                                    <option value="OHIO">Ohio</option>
+                                    <option value="OKLAHOMA">Oklahoma</option>
+                                    <option value="OREGON">Oregon</option>
+                                    <option value="PENNSYLVANIA">Pennsylvania</option>
+                                    <option value="RHODE ISLAND">Rhode Island</option>
+                                    <option value="SOUTH CAROLINA">South Carolina</option>
+                                    <option value="SOUTH DAKOTA">South Dakota</option>
+                                    <option value="TENNESSEE">Tennessee</option>
+                                    <option value="TEXAS">Texas</option>
+                                    <option value="UTAH">Utah</option>
+                                    <option value="VERMONT">Vermont</option>
+                                    <option value="VIRGINIA">Virginia</option>
+                                    <option value="WASHINGTON">Washington</option>
+                                    <option value="WEST VIRGINIA">West Virginia</option>
+                                    <option value="WISCONSIN">Wisconsin</option>
+                                    <option value="WYOMING">Wyoming</option>
+                                  </select>
+                                </div>
+                                <div class="col-6 col-md-2">
+                                  <input type="text" class="form-control" placeholder="Zip" id="inputZip">
+                                </div>
+                              </div>
+                              <div class="col-12 spacer"></div>
+        <!-- Second Bootstrap Form -->
+                        <div class="form-row">
+                                          
+                            <label class="label-text col-12" for="Email/Password">Email/Password:</label>
+                            <div class="col-12 col-md-8 col-lg-6">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                  </div>
+
+                                  <div class="col-12 col-md-8 col-lg-6">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                  </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary order-btn">Sign In</button>
+                              
+        <!-- Third Bootstrap Form -->
+                            <div class="form-row">
+                                    <label class="label-text col-12" for="Order">Order Your Macarons:</label>
+                                <div class="col-12 col-lg-8">
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>Select Your Quantity</option>
+                                        <option>6 $9.99</option>
+                                        <option>1 dozen cookies $18.99</option>
+                                        <option>2 dozen cookies $34.99</option>
+                                        </select>
+                                    </div>  
+                                    
+                                  <div class="form-row">
+                                      <div class="col-12"></div>
+                                          <small class="form-text text-muted mb-4">Select up to 4 Flavors:</small>
+                                      </div>
+                                      <div class="form-row">
+                                          <div class="col-md-10">
+
+                                              <select class="form-control flavor-choice" id="Flavor1">
+                                                  <option>Flavor One</option>
+                                                  <option>French Vanilla</option>
+                                                  <option>Lemon Meringue</option>
+                                                  <option>Orange Creamcicle</option>
+                                                  <option>Summer Strawberry</option>
+                                                  <option>Luscious Lavender</option>
+                                                  <option>Blissful Blueberry</option>
+                                                  <option>Perfect Pistachio</option>
+                                                  <option>Metcha Matcha</option>
+                                                  <option>Chocolate Raspberry</option>
+                                                  <option>Red Velvet</option>
+                                                  <option>Cinnamon Cream</option>
+                                                  <option>Double Chocolate</option>
+
+                                              </select>
+                                          </div>
+                                      </div>
+
+                                      <div class="form-row">
+                                          <div class="col-md-10">
+                                              <select class="form-control flavor-choice" id="Flavor2">
+                                                  <option>Flavor Two</option>
+                                                  <option>French Vanilla</option>
+                                                  <option>Lemon Meringue</option>
+                                                  <option>Orange Creamcicle</option>
+                                                  <option>Summer Strawberry</option>
+                                                  <option>Luscious Lavender</option>
+                                                  <option>Blissful Blueberry</option>
+                                                  <option>Perfect Pistachio</option>
+                                                  <option>Metcha Matcha</option>
+                                                  <option>Chocolate Raspberry</option>
+                                                  <option>Red Velvet</option>
+                                                  <option>Cinnamon Cream</option>
+                                                  <option>Double Chocolate</option>
+                                              </select>
+                                          </div>
+                                      </div>
+
+                                      <div class="form-row">
+                                          <div class="col-md-10">
+                                              <select class="form-control flavor-choice" id="Flavor3">
+                                                  <option>Flavor Three</option>
+                                                  <option>French Vanilla</option>
+                                                  <option>Lemon Meringue</option>
+                                                  <option>Orange Creamcicle</option>
+                                                  <option>Summer Strawberry</option>
+                                                  <option>Luscious Lavender</option>
+                                                  <option>Blissful Blueberry</option>
+                                                  <option>Perfect Pistachio</option>
+                                                  <option>Metcha Matcha</option>
+                                                  <option>Chocolate Raspberry</option>
+                                                  <option>Red Velvet</option>
+                                                  <option>Cinnamon Cream</option>
+                                                  <option>Double Chocolate</option>
+                                              </select>
+                                          </div>
+                                      </div>
+
+                                      <div class="form-row">
+                                          <div class="col-md-10">
+                                              <select class="form-control flavor-choice" id="Flavor4">
+                                                  <option>Flavor Four</option>
+                                                  <option>French Vanilla</option>
+                                                  <option>Lemon Meringue</option>
+                                                  <option>Orange Creamcicle</option>
+                                                  <option>Summer Strawberry</option>
+                                                  <option>Luscious Lavender</option>
+                                                  <option>Blissful Blueberry</option>
+                                                  <option>Perfect Pistachio</option>
+                                                  <option>Metcha Matcha</option>
+                                                  <option>Chocolate Raspberry</option>
+                                                  <option>Red Velvet</option>
+                                                  <option>Cinnamon Cream</option>
+                                                  <option>Double Chocolate</option>
+                                              </select>
+                                          </div>
+                                      </div>
+                                  </div>
+                            </div>
+
+                            <div class="form-row">
+                                    <div class="col-lg-3 spacer"></div>
+                                <div class="col-12 col-lg-8">
+                                        <small class="form-text text-muted mb-4">Special Instructions:</small>
+                                        <textarea class="form-control" placeholder="Your Gift Card goes here. Please give us any special instructions regarding delivery date, flavor quantities, etc.
+
+*** Please allow up to 5 business days for delivery ***" name="Notes" rows="5" cols="50"></textarea><br>
+                                </div>
+                            </div>
+
+                                  <button type="submit" class="btn btn-primary order-btn mt-n4 mb-n4">Continue to Checkout</button>
+                      </form>
+                    
+        </div>
+   
+</section>
+          
+</div>
+<!-- Footer -->
+<footer>
+        <div class="icon-box">
+            <div><a href="#"><i class="fas fa-phone social-icon"></i></a></div>
+            <div><a href="#"><i class="fab fa-facebook social-icon"></i></a></div>
+            <div><a href="#"><i class="fab fa-instagram social-icon"></i></a></div>
+            <div><a href="#"><i class="fab fa-twitter social-icon"></i></a></div>
+            <div><a href="#"><i class="fab fa-pinterest social-icon"></i></a></div>
+        </div>
+    </footer>
+   
+
+
+    <p class="acknowledgement">Macaron Icon made by <a class="acknowledgement" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a class="acknowledgement" href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></p>
+
+
+      <!-- Image -->
+      <!-- <div class="hero-img"><img class="hero-image-blue img-fluid" src="../images/blue-macarons@0,5x.png" alt="row of beautiful macarons"
+        srcset="../images/blue-macarons@0,5x.png 600w, ../images/blue-macarons.png 1200w, ../images/blue-macarons@2x.png 2000w">
+    </div> -->
+
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

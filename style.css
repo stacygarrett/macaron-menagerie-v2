@@ -15,6 +15,7 @@
 p {
     color: rgb(72, 72, 72);
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.95rem;
     line-height: 2;
     margin-bottom: 10%;
 }
@@ -24,11 +25,11 @@ p {
     border-radius: 5px 100px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.119);
     margin: 0 auto;
-    width: 75%;
+    width: 65%;
 }
 
 .hero-paragraph {
-    width: 75%;
+    width: 60%;
     padding: 15% 10%;
 }
 
@@ -53,6 +54,16 @@ p {
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+    .hero-image {
+        position: relative;
+        top: -50px;
+    }
+
+    .main-content {
+        position: relative;
+        top:-50px;
+    }
+
    p {
        line-height: 1.75;
        margin-bottom: 4%;
@@ -69,6 +80,17 @@ p {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+
+    .hero-image {
+        position: relative;
+        top: -100px;
+    }
+
+    .main-content {
+        position: relative;
+        top:-100px;
+    }
+
     p {
         line-height: 1.5;
         margin-bottom: 3%;
