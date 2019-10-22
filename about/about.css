@@ -24,6 +24,9 @@ h3 {
     color: #f1e4c9;
     font-size: 1.35rem;
 }
+.title {
+    padding-bottom: 2%;
+}
 
 .mybox {
     background-color: rgba(241, 225, 245, 0.42);

@@ -68,7 +68,7 @@ nav {
 
 .nav-btn-hidden>a {
     color: rgba(72, 72, 72, 0.694);
-    padding: 10px 15px;
+    margin-left: 10px;
     text-decoration: none;
 }
 
