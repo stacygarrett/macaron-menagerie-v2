@@ -24,9 +24,6 @@ h3 {
     color: #f1e4c9;
     font-size: 1.35rem;
 }
-.title {
-    padding-bottom: 2%;
-}
 
 .mybox {
     background-color: rgba(241, 225, 245, 0.42);
@@ -124,6 +121,11 @@ h3 {
 
 .message-box-md {
     margin-bottom: 0;
+}
+
+.social-icon:hover {
+    border-color:rgba(120, 90, 145, 0.714);
+    color: rgba(120, 90, 145, 0.714);
 }
 
 /* // Medium devices (tablets, 768px and up) */
